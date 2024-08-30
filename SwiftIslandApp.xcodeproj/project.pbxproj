@@ -85,6 +85,10 @@
 		2E19CADE2A7EEC9700177B61 /* UpNextSystemLargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E19CADD2A7EEC9700177B61 /* UpNextSystemLargeView.swift */; };
 		2E19CAE02A7EF7B100177B61 /* UpNextSystemRectangularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E19CADF2A7EF7B100177B61 /* UpNextSystemRectangularView.swift */; };
 		2E19CAE22A7EFD9800177B61 /* UpNextSystemCircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E19CAE12A7EFD9800177B61 /* UpNextSystemCircularView.swift */; };
+		4053CF242C7F189C00A629BA /* ContactDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053CF232C7F189C00A629BA /* ContactDataTests.swift */; };
+		4053CF272C7F1E0E00A629BA /* KeychainManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053CF262C7F1E0E00A629BA /* KeychainManagerTests.swift */; };
+		4053CF282C7F1E7600A629BA /* MockKeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053CF252C7F1DB700A629BA /* MockKeychainManager.swift */; };
+		7646BAEA2C7A136900321B24 /* Workshop.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7646BAE92C7A136900321B24 /* Workshop.docc */; };
 		B30E2E172C6E5E71007A48E5 /* Hint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30E2E162C6E5E71007A48E5 /* Hint.swift */; };
 		B30E2E1C2C6F9B5E007A48E5 /* NFCDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30E2E1B2C6F9B5E007A48E5 /* NFCDelegates.swift */; };
 		B332ADF72A9A813C00557AA7 /* truchet-tiles.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B332ADF12A9A813900557AA7 /* truchet-tiles.pdf */; };
@@ -235,6 +239,10 @@
 		2E19CADD2A7EEC9700177B61 /* UpNextSystemLargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextSystemLargeView.swift; sourceTree = "<group>"; };
 		2E19CADF2A7EF7B100177B61 /* UpNextSystemRectangularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextSystemRectangularView.swift; sourceTree = "<group>"; };
 		2E19CAE12A7EFD9800177B61 /* UpNextSystemCircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpNextSystemCircularView.swift; sourceTree = "<group>"; };
+		4053CF232C7F189C00A629BA /* ContactDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDataTests.swift; sourceTree = "<group>"; };
+		4053CF252C7F1DB700A629BA /* MockKeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKeychainManager.swift; sourceTree = "<group>"; };
+		4053CF262C7F1E0E00A629BA /* KeychainManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManagerTests.swift; sourceTree = "<group>"; };
+		7646BAE92C7A136900321B24 /* Workshop.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Workshop.docc; sourceTree = "<group>"; };
 		B30E2E162C6E5E71007A48E5 /* Hint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hint.swift; sourceTree = "<group>"; };
 		B30E2E1B2C6F9B5E007A48E5 /* NFCDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCDelegates.swift; sourceTree = "<group>"; };
 		B332ADF12A9A813900557AA7 /* truchet-tiles.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "truchet-tiles.pdf"; sourceTree = "<group>"; };
@@ -589,6 +597,9 @@
 		2AEDC48A2A4A030F00CD0180 = {
 			isa = PBXGroup;
 			children = (
+				4053CF262C7F1E0E00A629BA /* KeychainManagerTests.swift */,
+				4053CF252C7F1DB700A629BA /* MockKeychainManager.swift */,
+				4053CF232C7F189C00A629BA /* ContactDataTests.swift */,
 				2A9B6C852C0137810020F758 /* SwiftIsland.xctestplan */,
 				2A659B242BFFE2B100A57501 /* Shared */,
 				2AECBFB12A95D769001FBFA9 /* ci_scripts */,
@@ -1010,6 +1021,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4053CF272C7F1E0E00A629BA /* KeychainManagerTests.swift in Sources */,
+				4053CF282C7F1E7600A629BA /* MockKeychainManager.swift in Sources */,
+				4053CF242C7F189C00A629BA /* ContactDataTests.swift in Sources */,
 				2A987A9F2A7ADDF200EE15DF /* AddDataModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
